@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: whitesmoke;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.nav-content h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.menu-button span {
+    font-size: 50px;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.hero-container h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-container p {
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.hero-container button {
+    padding-right: 100px;
+    padding-left: 100px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.hero-container button:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.issues-cotainer{
+    display: flex;
+    align-items: center;
+}
